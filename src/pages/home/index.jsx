@@ -1,7 +1,9 @@
+import styles from './index.module.css'
+
 function Home() {
     return (
         <>
-            <h1>Aula React com VITE JS</h1>
+            <h1>Aula React com VITE JS</h1> 
         </>
     )
 }
