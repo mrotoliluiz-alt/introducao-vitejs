@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;    
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%; 
+    max-width: 1440px;
+    height: 97vh; 
+}
+
+.estilos{
+    border: 10rem;
+    border-radius: 10rem;
+    background-color: black;
+    color: aliceblue;
+    
+}
