@@ -15,6 +15,7 @@ function Home() {
             <div className={styles.containerItens}>
                 <h2>Atividades</h2>
                 <Link to="/atividade/01"> Atividade 1 - Uso do CSS</Link>
+                <Link to="/atividade/02"> Atividade 2 - Contador menos</Link>
             </div>
         </div>
     )

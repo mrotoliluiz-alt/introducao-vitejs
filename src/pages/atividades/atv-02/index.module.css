@@ -5,6 +5,10 @@
     height: 96vh;
 }
 
+.containerBotoes{
+    display: flex;
+}
+
 .texto {
     font-size: 3.5rem;
     margin: 2rem 0;
@@ -17,6 +21,8 @@
     text-align: center;
     font-weight: bold;
     padding: 1rem;
+    
+    
 }
 
 .botao:hover {
