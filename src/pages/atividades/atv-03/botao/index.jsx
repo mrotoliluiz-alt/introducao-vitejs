@@ -1,14 +1,12 @@
 import styles from './index.module.css';
 
 function Botao({ texto, aoClicar, acao }) {
+
+    const dinami = styles[acao];
+    
     return (
         <button
-            className={`${styles.botao} 
-            ${acao === 'conteiner' ? styles.conteiner : ''}
-            ${acao === 'editar' ? styles.editar : ''}
-            ${acao === 'conteiner' ? styles.conteiner : ''}
-            ${acao === 'conteiner' ? styles.conteiner : ''}
-            `}
+            className={`${styles.botao} ${dinami}`} 
             onClick={aoClicar}
         >
             {texto}

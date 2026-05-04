@@ -4,10 +4,22 @@
     margin: 0.5rem;
 }
 
-.conteiner {
+.cadastrar {
     background-color: rgb(34, 45, 139);
 }
 
 .editar {
     background-color: coral;
+}
+
+.listar{
+    background-color: brown;
+}
+
+.excluir{
+    background-color: crimson;
+}
+
+.cancelar{
+    background-color: cadetblue;
 }
