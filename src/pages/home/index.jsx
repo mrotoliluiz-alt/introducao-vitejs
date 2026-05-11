@@ -12,12 +12,14 @@ function Home() {
                  <Link to="/exemplo/02"> Exemplo 2 - uso de estilização com module</Link>
                  <Link to="/exemplo/03"> Exemplo 3 - Contador</Link>
                  <Link to="/exemplo/04"> Exemplo 4 - componentes </Link>
+                 <Link to="/exemplo/05"> Exemplo 5 - Formulario </Link>
             </div>
             <div className={styles.containerItens}>
                 <h2>Atividades</h2>
                 <Link to="/atividade/01"> Atividade 1 - Uso do CSS</Link>
                 <Link to="/atividade/02"> Atividade 2 - Contador menos</Link>
                 <Link to="/atividade/03"> Atividade 3 - componentes diverços</Link>
+                <Link to="/atividade/04"> Atividade 4 - Lista de compras</Link>
             </div>
         </div>
     )

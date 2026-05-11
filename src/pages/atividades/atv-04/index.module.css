@@ -1,0 +1,67 @@
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* TÍTULO */
+.container h1 {
+    color: #8b0000;
+    margin-bottom: 30px;
+}
+
+/* FORM */
+.formulario {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* INPUTS */
+.formulario input {
+    padding: 12px 15px;
+    border-radius: 12px;
+    border: 2px solid #dcdcdc;
+    font-size: 16px;
+    outline: none;
+}
+
+/* INPUT QTD */
+.formulario input:first-child {
+    width: 80px;
+}
+
+/* INPUT PRODUTO */
+.formulario input:nth-child(2) {
+    flex: 1;
+}
+
+/* BOTÃO */
+.formulario button {
+    background-color: #a40000;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.formulario button:hover {
+    background-color: #870000;
+}
+
+/* LISTA */
+.listaItem {
+    background-color: #e6e6e6;
+    padding: 15px 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
