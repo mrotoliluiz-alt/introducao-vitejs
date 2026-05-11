@@ -33,7 +33,7 @@ export default function Atividade04() {
 
                 <input
                     id="quant"
-                    type="numeric"
+                    type="number"
                     placeholder='Qnt'
                     value={qnt}
                     onChange={e => setQnt(e.target.value)}
